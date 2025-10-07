@@ -21,7 +21,6 @@ Script interactivo en **Bash** para la instalación del **Agente WatchGuard** en
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/tu-usuario/watchguard-agent-installer.git
-   cd watchguard-agent-installer
+   wget -O Watchguard_Agent.sh https://raw.githubusercontent.com/asotonet/Watchguard-Threatsync-Agent/main/Watchguard_Agent.sh
    chmod +x Watchguard_Agent.sh
    sudo ./Watchguard_Agent.sh
